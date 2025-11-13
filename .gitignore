@@ -45,6 +45,13 @@ artifacts/
 typechain/
 typechain-types/
 
+# Foundry
+smart-contract/out/
+smart-contract/cache/
+smart-contract/lib/
+smart-contract/broadcast/
+smart-contract/.env
+
 # Misc
 tmp/
 temp/
