@@ -52,6 +52,12 @@ smart-contract/lib/
 smart-contract/broadcast/
 smart-contract/.env
 
+# CLI
+cli/dist/
+cli/node_modules/
+cli/package-lock.json
+cli/*.tsbuildinfo
+
 # Misc
 tmp/
 temp/

@@ -1,0 +1,37 @@
+{
+  "name": "truth-stamped",
+  "version": "0.1.0",
+  "description": "CLI tool for stamping and verifying content authenticity on the blockchain",
+  "main": "dist/index.js",
+  "bin": {
+    "truth-stamped": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain",
+    "authenticity",
+    "deepfake",
+    "verification",
+    "base",
+    "ethereum"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.2",
+    "ethers": "^6.15.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
