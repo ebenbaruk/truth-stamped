@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+import 'dotenv/config';
 import { Command } from 'commander';
 import { initCommand, stampCommand, verifyCommand, listCommand } from './commands';
 import chalk from 'chalk';

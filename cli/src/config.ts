@@ -19,10 +19,10 @@ export function getConfig(network: 'mainnet' | 'sepolia' = 'sepolia'): Config {
   const homeDir = os.homedir();
   const walletPath = path.join(homeDir, '.truth-stamped', 'wallet.json');
 
-  // Contract addresses (will be updated after deployment)
+  // Contract addresses from environment variables
   const contractAddresses = {
     mainnet: process.env.TRUTH_STAMP_CONTRACT_MAINNET || '',
-    sepolia: process.env.TRUTH_STAMP_CONTRACT_SEPOLIA || '',
+    sepolia: process.env.TRUTH_STAMP_CONTRACT_SEPOLIA || '0x5B77EC60D5a81c07E3601f5d268e86de6CD24d84',
   };
 
   return {
